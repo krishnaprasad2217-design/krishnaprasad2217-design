@@ -22,24 +22,16 @@
 
 ## 👨‍💻 About Me
 
-```python
-class Krishnaprasad:
-    def __init__(self):
-        self.name        = "Krishnaprasad S"
-        self.role        = "Python Developer & UI/UX Designer"
-        self.education   = "B.Tech Computer Science @ APJ KTU (2022–2026)"
-        self.location    = "Kottayam, Kerala, India 🇮🇳"
-        self.cgpa        = 7.2
-        self.languages   = ["English", "Malayalam"]
-        self.interests   = ["AI Systems", "Computer Vision", "UX Design", "Python Dev"]
-        self.currently   = "Final year — open to full-time roles & internships 🚀"
+**Name:** Krishnaprasad S  
+**Role:** Python Developer & UI/UX Designer  
+**Education:** B.Tech Computer Science @ APJ KTU (2022–2026)  
+**Location:** Kottayam, Kerala, India 🇮🇳  
+**CGPA:** 7.2  
+**Languages:** English, Malayalam  
+**Interests:** AI Systems · Computer Vision · UX Design · Python Dev  
+**Currently:** Final year — open to full-time roles & internships 🚀
 
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something intelligent together.")
-
-me = Krishnaprasad()
-me.say_hi()
-```
+> *Thanks for dropping by! Let's build something intelligent together.*
 
 I'm a **final-year B.Tech Computer Science student** passionate about building intelligent systems that solve real-world problems. I've architected AI systems leveraging **CNN + RNN multi-modal fusion**, built automated hardware-integrated solutions, and crafted polished user experiences in **Figma**. I bridge the gap between deep-tech AI and beautiful design.
 
@@ -62,6 +54,8 @@ I'm a **final-year B.Tech Computer Science student** passionate about building i
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-3B82F6?style=for-the-badge&logo=python&logoColor=white)
 
 ### ⚙️ Tools & Libraries
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-LLaMA3-F97316?style=for-the-badge)
 ![librosa](https://img.shields.io/badge/librosa-Audio--ML-10B981?style=for-the-badge)
 ![MS Office](https://img.shields.io/badge/MS%20Office-D83B01?style=for-the-badge&logo=microsoftoffice&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -115,6 +109,51 @@ An automated parking system with real-time intelligence:
 
 **Stack:**
 `Python` `Sensor Integration` `Embedded Logic` `GUI`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🩺 Dr.Help — AI Medical Assistant
+> *Full-stack AI health companion web app*
+
+A Flask-based medical assistant web app powered by **Groq LLaMA 3.3-70B**:
+- 💬 **AI Symptom Checker** — conversational triage with urgency scoring (Low / Medium / High / Emergency)
+- 📋 **Medical Report Analyzer** — paste or upload lab reports for plain-language explanations
+- 📅 **Menstrual Cycle Tracker** — calendar with fertile window & period predictions
+- 🏥 **Nearby Hospitals Finder** — Google Maps integration with one-tap calling
+- 🥗 **AI Diet Planner** — personalized meal plans based on health goals
+- 🔐 **Auth system** — server-side login/signup with session management
+
+**Highlights:**
+- ⚡ Groq API for ultra-fast LLM responses
+- 🎨 Dark glassmorphism UI with animated background
+- 📱 Fully responsive design
+
+**Stack:**
+`Python` `Flask` `Groq API` `LLaMA 3.3` `HTML/CSS/JS` `JSON`
+
+</td>
+<td width="50%" valign="top">
+
+### 🐾 PawCare — Pet Health Dashboard
+> *Smart pet health tracker with AI vet assistant*
+
+A Flask web app for comprehensive pet health management:
+- 💉 **Vaccine Tracker** — Done / Due Soon / Overdue / Upcoming status with reminders
+- 🍽️ **Feeding Schedule** — breed-specific feeding data and tracking
+- 🤖 **Dr. Paws Chatbot** — AI vet assistant powered by **Groq LLaMA 3** for pet health Q&A
+- 👤 **Pet Profiles** — full profile management with breed, DOB, and health info
+- 🔐 **Auth system** — signup, login, and account deletion
+
+**Highlights:**
+- ✅ Real-time vaccine status with smart reminders
+- ⚡ Switched from OpenAI to Groq — free & faster
+- 🐕 Supports multiple pet types and breeds
+
+**Stack:**
+`Python` `Flask` `Groq API` `LLaMA 3` `HTML/CSS/JS` `JSON`
 
 </td>
 </tr>
